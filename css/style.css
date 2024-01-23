@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.menu
+    {
+    background-color:transparent;
+    padding-top: 3%;
+    padding-left: 65%;
+    
+    }
+
+    h1
+    {
+         color:rgb(4, 79, 129);
+         font-size: 65px;
+         font-family: 'Times New Roman', Times, serif;    
+    } 
+a
+{
+
+    color:rgb(136, 166, 201);
+    text-decoration: none;
+    margin-right: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}

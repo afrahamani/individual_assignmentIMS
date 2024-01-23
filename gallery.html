@@ -1,0 +1,172 @@
+<html>
+    <head>
+
+        <title>Gallery</title>
+
+    </head>
+        <link rel="stylesheet" href="css/style.css">
+
+        <body>
+    
+
+            <div class="menu">
+                
+                
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="education.html">Education</a>
+                <a href="contact.html">Contact Me</a>
+              
+        
+            </div>
+            
+        
+            <marquee style="font-size: 5%;">
+        
+                <h1>꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷🐾My Gallery🐾꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷</h1>
+            </marquee>
+        <hr>
+        
+        <div style="text-align: center;">
+        
+        <img src="Photos/Badak.jpg" width="300px">
+        <img src="Photos/Sop.jpg" width="300px">
+        <img src="Photos/SMK.jpg" width="300px">
+        <img src="Photos/machang.jpg" width="300px">
+        
+        </div>
+        
+        <div style="text-align: center;">
+        
+        <img src="Photos/Gorgon.jpg" width="300px">
+        <img src="Photos/Basketball.jpg" width="300px">
+        <img src="Photos/Janda 2.jpg" width="300px">
+        <img src="Photos/Program Motivasi 1.jpg" width="300px">
+        
+        </div>
+        
+        </div>
+        
+        
+        <h2>RANDOM PHOTOS</h2>
+        
+    <style>
+
+    body
+    {
+      background: url("Photos/awan\ wallpaper.png");
+      background-size: cover;
+    
+    } 
+
+    img
+    {
+      border-radius: 10%;
+      margin-right: 3px;
+    }
+
+    .slider 
+    {
+      width: 500px;
+      height: 300px;
+      background-color: rgb(11, 110, 140);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      text-align:center;
+      overflow: hidden;
+              
+              
+    }
+  
+    .image-container 
+    {
+      width: 1500px;
+      background-color: rgb(102, 159, 177);
+      height: 300px;
+      clear: both;
+      position: relative;
+      -webkit-transition: left 2s;
+      -moz-transition: left 2s;
+      -o-transition: left 2s;
+      transition: left 2s;
+             
+    }
+  
+    .slide 
+    {
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      justify-items: center;
+    }
+
+    #slide-1:target ~ .image-container
+    {
+     left: 0px;
+    }
+            #slide-2:target ~ .image-container
+             {
+              left: -500px;
+            }
+            #slide-3:target ~ .image-container
+             {
+              left: -1000px;
+            }
+            #slide-4:target ~ .image-container
+             {
+              left: -1450px;
+            }
+            #slide-5:target ~ .image-container
+            {
+                left: -2000px;
+            }
+        
+            .buttons
+             {
+              position: relative;
+              top: -20px;
+            }
+            .buttons a 
+            {
+              display: inline-block;
+              height: 15px;
+              width: 15px;
+              border-radius: 50px;
+              background-color: rgb(200, 225, 223);
+            }
+    h2
+    {
+        color: rgb(37, 105, 169);
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <span id="slide-4"></span>
+        <span id="slide-5"></span>
+        
+            <div class="image-container">
+              <img src="Photos/myself 1.jpg" class="slide" width="300" height="300"  />
+              <img src="Photos/myself 2.jpg" class="slide" width="300" height="300" />
+              <img src="Photos/myself 3.jpg" class="slide" width="300" height="300" />
+              <img src="Photos/myself 4.jpg" class="slide" width="300" height="300" />
+              <img src="Photos/myself 5.jpg" class="slide" width="300" height="300" />
+            </div>
+            <div class="buttons">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+              
+            </div>
+          </div>
+</body>
+
+</html>
+        
